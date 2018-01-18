@@ -7,6 +7,6 @@ From 0 to 12 AM the image of the Real Madrid stadium (Santiago Bernabeu) will be
 displayed, while the image of FC Barcelona's stadium (Camp Nou) will display
 during the rest of the day.
 
-This page is mobile responsive.
+This page is mobile-responsive.
 
 #### You can see the page live [here](https://sebarbossus.github.io/ronaldo-vs-messi/).
