@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    color: #eee;
+    overflow-x: hidden;
+}
+.col-md-4 {
+    padding: 0;
+}
+.main-container {
+    width: 100vw;
+    height: 96vh;
+}
+.table-wrapper {
+    text-align: center;
+}
+.tg-le, .tg-ce, .tg-ri {
+    text-align: center;
+}
+.tg-le, .tg-ri {
+    width: 40%;
+}
+.tg-ce {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-transform: uppercase;
+}
+tr.stats-row {
+    font-size: 0.9em;
+}
+tr.stats-row:not(:last-child) {
+    border-bottom: 1px solid #fff;
+}
+td {
+    padding: 3px 0;
+}
+.flag{
+    display: block;
+    margin: 30% auto 0;
+}
+.flag-right {
+    margin: 28% auto 0;
+}
+.player-right {
+    display: block;
+    margin: 0 auto;
+}
+.player {
+    margin-top: 15px;
+}
+.header {
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -webkit-linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -o-linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background: -moz-linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    padding: 7.5px 0;
+}
+.tg-main {
+    margin: 0 auto;
+    background: #000;
+}
+.tg-ce, .tg-le, .tg-ri {
+    background: rgba(0,0,0,1);
+}
+
+.footer-wrapper {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 4vh;
+}
+footer {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    text-align: center;
+}
+footer p {
+    margin: 0 5px;
+    padding: 0;
+    float: left;
+}
+@media (max-width: 768px) {
+    .table-wrapper {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .flag-right {
+        margin-bottom: 40px;
+    }
+    .footer-wrapper {
+        position: absolute;
+        bottom: 0;
+    }
+}
